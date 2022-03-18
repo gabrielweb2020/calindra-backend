@@ -1,0 +1,11 @@
+{
+  "name": "calindra-backend",
+  "version": "1.0.0",
+  "description": "API de Geolocalização para desafio Backend da Calindra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Bittencourt",
+  "license": "ISC"
+}
