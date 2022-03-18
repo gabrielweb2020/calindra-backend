@@ -2,10 +2,27 @@
   "name": "calindra-backend",
   "version": "1.0.0",
   "description": "API de Geolocalização para desafio Backend da Calindra",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "lint": "npx eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gabriel Bittencourt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.0"
+  }
 }
