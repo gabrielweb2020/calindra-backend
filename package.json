@@ -1,11 +1,11 @@
 {
-  "name": "calindra-backend",
+  "name": "template-node",
   "version": "1.0.0",
-  "description": "API de Geolocalização para desafio Backend da Calindra",
-  "main": "src/app.js",
+  "description": "Template Node",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "lint": "npx eslint --fix .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
